@@ -8,13 +8,12 @@ images_dir = "images"
 javascripts_dir = "javascripts"
 fonts_dir = "fonts"
 
-output_style = :nested
-environment = :development
+output_style = :compact
 
 relative_assets = true
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
-# line_comments = false
+line_comments = false
 color_output = false
 
 
