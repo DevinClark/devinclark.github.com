@@ -1,22 +1,27 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*!
+Hello, it appears you are trying to view my source code. I have compressed this code to improve performance but you can view my Sass, which is uncompressed, at the following URL:
+
+https://github.com/DevinClark/devinclark.github.com/tree/master/sass
+*/
 
 @import "compass/reset";
+@import "compass/css3/";
 
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+// Layout
 * {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+	@include box-sizing(border-box);
 }
 .alignleft {
 	float: left;
 }
 .alignright {
 	float: right;
+}
+.wrapper {
+	width:860px;
+	margin:0 auto;
 }
 
 body {
@@ -26,23 +31,17 @@ body {
 	font-weight:300;
 }
 
+// Heading Styles
 h1, h2, h3, h4, h5, h6 {
 	color:#222;
 	margin:0 0 20px;
 }
-
-p, ul, ol, table, pre, dl {
-	margin:0 0 20px;
-}
-
 h1, h2, h3 {
 	line-height:1.1;
 }
-
 h1 {
 	font-size:28px;
 }
-
 h2 {
 	color:#393939;
 	font-size: 22px;
@@ -50,9 +49,13 @@ h2 {
 h3 {
 	font-size: 18px;
 }
-
 h3, h4, h5, h6 {
 	color:#494949;
+}
+
+// Generic Elements
+p, ul, ol, table, pre, dl {
+	margin:0 0 20px;
 }
 em {
 	font-style: italic;
@@ -62,32 +65,23 @@ a {
 	font-weight:400;
 	text-decoration:none;
 }
-
 a small {
 	font-size:11px;
 	color:#777;
 	margin-top:-0.6em;
 	display:block;
 }
-
-.wrapper {
-	width:860px;
-	margin:0 auto;
-}
-
 blockquote {
 	border-left:1px solid #e5e5e5;
 	margin:0;
 	padding:0 0 0 20px;
 	font-style:italic;
 }
-
 code, pre {
 	font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
 	color:#333;
 	font-size:12px;
 }
-
 pre {
 	padding:8px 15px;
 	background: #f8f8f8;
@@ -95,18 +89,15 @@ pre {
 	border:1px solid #e5e5e5;
 	overflow-x: auto;
 }
-
 table {
 	width:100%;
 	border-collapse:collapse;
 }
-
 th, td {
 	text-align:left;
 	padding:5px 10px;
 	border-bottom:1px solid #e5e5e5;
 }
-
 dt {
 	color:#444;
 	font-weight:700;
@@ -114,15 +105,27 @@ dt {
 dd {
 	margin-bottom: 5px;
 }
-
 th {
 	color:#444;
 }
-
 img {
 	max-width:100%;
 }
+strong {
+	color:#222;
+	font-weight:700;
+}
+small {
+	font-size:11px;
+}
+hr {
+	border:0;
+	background:#e5e5e5;
+	height:1px;
+	margin:0 0 20px;
+}
 
+// Header
 header {
 	width:270px;
 	float:left;
@@ -138,17 +141,14 @@ header img {
 	margin-bottom: 10px;
 }
 
-strong {
-	color:#222;
-	font-weight:700;
-}
-
+// Main Content Area
 section {
 	width:500px;
 	float:right;
 	padding-bottom: 30px;
 }
 
+// Bar Graph
 .bar-graph {
 	border-right: 1px solid #bbb;
 	width: 100%;
@@ -162,6 +162,8 @@ section {
 		font-weight: bold;
 	}
 }
+
+// Timeline (Conference List)
 .timeline {
 	li {
 		margin-left: 20px;
@@ -173,6 +175,7 @@ section {
 	}
 }
 
+// Jobs and Schools
 article {
 	padding: 10px 5px;
 	border-top: 1px solid #bbb;
@@ -200,17 +203,7 @@ article {
 	}
 }
 
-small {
-	font-size:11px;
-}
-
-hr {
-	border:0;
-	background:#e5e5e5;
-	height:1px;
-	margin:0 0 20px;
-}
-
+// Footer
 footer {
 	width:270px;
 	float:left;
@@ -218,53 +211,48 @@ footer {
 	bottom:20px;
 }
 
+// Smaller Desktop (and print tweaks)
 @media print, screen and (max-width: 960px) {
-
 	div.wrapper {
 		width:auto;
 		margin:0;
 	}
-
 	header, section, footer {
 		float:none;
 		position:static;
 		width:auto;
 	}
-
 	header {
 		padding-right:320px;
 	}
-
 	section {
 		border-width:1px 0;
 		padding:20px 0;
 		margin:0 0 20px;
 	}
-
 	header a small {
 		display:inline;
 	}
 
 }
 
+// Tablet (and print tweaks)
 @media print, screen and (max-width: 720px) {
 	body {
 		word-wrap:break-word;
 	}
-
 	header {
 		padding:0;
 	}
-
 	header p.view {
 		position:static;
 	}
-
 	pre, code {
 		word-wrap:normal;
 	}
 }
 
+// Mobile (and print tweaks)
 @media print, screen and (max-width: 480px) {
 	body {
 		padding:15px;
@@ -275,8 +263,10 @@ footer {
 	}
 }
 
-@import "pygment_trac";
+// Syntax Highlighting. Not needed at this point.
+//@import "pygment_trac";
 
+// Print Stylesheet
 @media print {
 	body {
 		padding:0.4in;

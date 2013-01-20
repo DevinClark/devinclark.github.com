@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
-/* Welcome to Compass. In this file you should write your main styles. (or centralize your imports) Import this file using the following HTML or equivalent: <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*
+Hello, it appears you are trying to view my source code. I have compressed this code to improve performance but you can view my Sass, which is uncompressed, at the following URL:
+
+https://github.com/DevinClark/devinclark.github.com/tree/master/sass
+*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
 
 html { line-height: 1; }
@@ -23,11 +27,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 .alignright { float: right; }
 
+.wrapper { width: 860px; margin: 0 auto; }
+
 body { padding: 50px; font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; color: #222; font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6 { color: #222; margin: 0 0 20px; }
-
-p, ul, ol, table, pre, dl { margin: 0 0 20px; }
 
 h1, h2, h3 { line-height: 1.1; }
 
@@ -39,13 +43,13 @@ h3 { font-size: 18px; }
 
 h3, h4, h5, h6 { color: #494949; }
 
+p, ul, ol, table, pre, dl { margin: 0 0 20px; }
+
 em { font-style: italic; }
 
 a { color: #39c; font-weight: 400; text-decoration: none; }
 
 a small { font-size: 11px; color: #777; margin-top: -0.6em; display: block; }
-
-.wrapper { width: 860px; margin: 0 auto; }
 
 blockquote { border-left: 1px solid #e5e5e5; margin: 0; padding: 0 0 0 20px; font-style: italic; }
 
@@ -65,13 +69,17 @@ th { color: #444; }
 
 img { max-width: 100%; }
 
+strong { color: #222; font-weight: 700; }
+
+small { font-size: 11px; }
+
+hr { border: 0; background: #e5e5e5; height: 1px; margin: 0 0 20px; }
+
 header { width: 270px; float: left; position: fixed; }
 
 header h1 { margin-bottom: 0; }
 
 header img { width: 225px; display: block; margin: 0 auto; margin-bottom: 10px; }
-
-strong { color: #222; font-weight: 700; }
 
 section { width: 500px; float: right; padding-bottom: 30px; }
 
@@ -89,10 +97,6 @@ article h3 + em { display: block; }
 article div { margin-top: 10px; }
 article ul { list-style: disc; list-style-position: inside; padding-left: 20px; margin-bottom: 10px; }
 
-small { font-size: 11px; }
-
-hr { border: 0; background: #e5e5e5; height: 1px; margin: 0 0 20px; }
-
 footer { width: 270px; float: left; position: fixed; bottom: 20px; }
 
 @media print, screen and (max-width: 960px) { div.wrapper { width: auto; margin: 0; }
@@ -106,75 +110,6 @@ footer { width: 270px; float: left; position: fixed; bottom: 20px; }
   pre, code { word-wrap: normal; } }
 @media print, screen and (max-width: 480px) { body { padding: 15px; }
   header ul { display: none; } }
-.highlight { background: #ffffff; /* Comment */ /* Error */ /* Keyword */ /* Operator */ /* Comment.Multiline */ /* Comment.Preproc */ /* Comment.Single */ /* Comment.Special */ /* Generic.Deleted */ /* Generic.Deleted.Specific */ /* Generic.Emph */ /* Generic.Error */ /* Generic.Heading */ /* Generic.Inserted */ /* Generic.Inserted.Specific */ /* Generic.Output */ /* Generic.Prompt */ /* Generic.Strong */ /* Generic.Subheading */ /* Generic.Traceback */ /* Keyword.Constant */ /* Keyword.Declaration */ /* Keyword.Namespace */ /* Keyword.Pseudo */ /* Keyword.Reserved */ /* Keyword.Type */ /* Literal.Number */ /* Literal.String */ /* Name.Attribute */ /* Name.Builtin */ /* Name.Class */ /* Name.Constant */ /* Name.Entity */ /* Name.Exception */ /* Name.Function */ /* Name.Namespace */ /* Name.Tag */ /* Name.Variable */ /* Operator.Word */ /* Text.Whitespace */ /* Literal.Number.Float */ /* Literal.Number.Hex */ /* Literal.Number.Integer */ /* Literal.Number.Oct */ /* Literal.String.Backtick */ /* Literal.String.Char */ /* Literal.String.Doc */ /* Literal.String.Double */ /* Literal.String.Escape */ /* Literal.String.Heredoc */ /* Literal.String.Interpol */ /* Literal.String.Other */ /* Literal.String.Regex */ /* Literal.String.Single */ /* Literal.String.Symbol */ /* Name.Builtin.Pseudo */ /* Name.Variable.Class */ /* Name.Variable.Global */ /* Name.Variable.Instance */ /* Literal.Number.Integer.Long */ }
-.highlight .c { color: #999988; font-style: italic; }
-.highlight .err { color: #a61717; background-color: #e3d2d2; }
-.highlight .k { font-weight: bold; }
-.highlight .o { font-weight: bold; }
-.highlight .cm { color: #999988; font-style: italic; }
-.highlight .cp { color: #999999; font-weight: bold; }
-.highlight .c1 { color: #999988; font-style: italic; }
-.highlight .cs { color: #999999; font-weight: bold; font-style: italic; }
-.highlight .gd { color: #000000; background-color: #ffdddd; }
-.highlight .gd .x { color: #000000; background-color: #ffaaaa; }
-.highlight .ge { font-style: italic; }
-.highlight .gr { color: #aa0000; }
-.highlight .gh { color: #999999; }
-.highlight .gi { color: #000000; background-color: #ddffdd; }
-.highlight .gi .x { color: #000000; background-color: #aaffaa; }
-.highlight .go { color: #888888; }
-.highlight .gp { color: #555555; }
-.highlight .gs { font-weight: bold; }
-.highlight .gu { color: #800080; font-weight: bold; }
-.highlight .gt { color: #aa0000; }
-.highlight .kc { font-weight: bold; }
-.highlight .kd { font-weight: bold; }
-.highlight .kn { font-weight: bold; }
-.highlight .kp { font-weight: bold; }
-.highlight .kr { font-weight: bold; }
-.highlight .kt { color: #445588; font-weight: bold; }
-.highlight .m { color: #009999; }
-.highlight .s { color: #dd1144; }
-.highlight .na { color: teal; }
-.highlight .nb { color: #0086b3; }
-.highlight .nc { color: #445588; font-weight: bold; }
-.highlight .no { color: teal; }
-.highlight .ni { color: purple; }
-.highlight .ne { color: #990000; font-weight: bold; }
-.highlight .nf { color: #990000; font-weight: bold; }
-.highlight .nn { color: #555555; }
-.highlight .nt { color: navy; }
-.highlight .nv { color: teal; }
-.highlight .ow { font-weight: bold; }
-.highlight .w { color: #bbbbbb; }
-.highlight .mf { color: #009999; }
-.highlight .mh { color: #009999; }
-.highlight .mi { color: #009999; }
-.highlight .mo { color: #009999; }
-.highlight .sb { color: #dd1144; }
-.highlight .sc { color: #dd1144; }
-.highlight .sd { color: #dd1144; }
-.highlight .s2 { color: #dd1144; }
-.highlight .se { color: #dd1144; }
-.highlight .sh { color: #dd1144; }
-.highlight .si { color: #dd1144; }
-.highlight .sx { color: #dd1144; }
-.highlight .sr { color: #009926; }
-.highlight .s1 { color: #dd1144; }
-.highlight .ss { color: #990073; }
-.highlight .bp { color: #999999; }
-.highlight .vc { color: teal; }
-.highlight .vg { color: teal; }
-.highlight .vi { color: teal; }
-.highlight .il { color: #009999; }
-.highlight .type-csharp .k { color: blue; }
-.highlight .type-csharp .kt { color: blue; }
-.highlight .type-csharp .nf { color: #000000; font-weight: normal; }
-.highlight .type-csharp .nc { color: #2b91af; }
-.highlight .type-csharp .nn { color: black; }
-.highlight .type-csharp .s { color: #a31515; }
-.highlight .type-csharp .sc { color: #a31515; }
-
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; }
   section { padding-bottom: 10px; }
   h2 { margin-bottom: 5px; }
