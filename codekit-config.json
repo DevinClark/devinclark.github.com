@@ -22,15 +22,15 @@
       "initialSize" : 34332,
       "fileType" : 4096
     },
-    "\/sass\/style.scss" : {
+    "\/sass\/ie.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/style.scss",
+      "inputAbbreviatedPath" : "\/sass\/ie.scss",
       "outputStyle" : 2,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/style.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/ie.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -43,15 +43,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/sass\/ie.scss" : {
+    "\/sass\/style.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/ie.scss",
+      "inputAbbreviatedPath" : "\/sass\/style.scss",
       "outputStyle" : 2,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/ie.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/style.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -77,15 +77,6 @@
       "outputAbbreviatedPath" : "\/javascripts\/init.min.min.js",
       "fileType" : 64
     },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/javascripts\/init.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -96,6 +87,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/javascripts\/init.min.js",
       "fileType" : 64
+    },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/javascripts\/scale.fix.min.js" : {
       "ignoreWasSetByUser" : 0,
