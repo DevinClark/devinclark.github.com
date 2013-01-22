@@ -11,6 +11,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 32768
     },
+    "\/stylesheets\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/stylesheets\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/images\/devin.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -22,14 +31,17 @@
       "initialSize" : 34332,
       "fileType" : 4096
     },
-    "\/stylesheets\/style.css" : {
+    "\/sass\/ie.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylesheets\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/sass\/ie.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/ie.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/sass\/style.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -40,18 +52,6 @@
       "outputStyle" : 2,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/stylesheets\/style.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/sass\/ie.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/ie.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/ie.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
