@@ -31,18 +31,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/sass\/style.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/style.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/style.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/sass\/ie.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -52,6 +40,18 @@
       "outputStyle" : 2,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/stylesheets\/ie.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/style.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/style.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/style.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -77,16 +77,14 @@
       "outputAbbreviatedPath" : "\/javascripts\/init.min.min.js",
       "fileType" : 64
     },
-    "\/javascripts\/scale.fix.min.js" : {
+    "\/index.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/scale.fix.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/scale.fix.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/javascripts\/init.js" : {
       "ignoreWasSetByUser" : 0,
@@ -99,14 +97,16 @@
       "outputAbbreviatedPath" : "\/javascripts\/init.min.js",
       "fileType" : 64
     },
-    "\/index.html" : {
+    "\/javascripts\/scale.fix.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/javascripts\/scale.fix.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/scale.fix.min.min.js",
+      "fileType" : 64
     },
     "\/sass\/pygment_trac.scss" : {
       "ignoreWasSetByUser" : 1,
