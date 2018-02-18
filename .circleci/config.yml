@@ -4,8 +4,6 @@
 #
 version: 2
 general:
-  artifacts:
-    - "~/repo/devin-clark-resume.pdf"
   branches:
     only:
       - master
@@ -39,3 +37,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run: npm start
+
+      - store_artifacts:
+          path: ~/repo/devin-clark-resume.pdf
+          destination: devin-clark-resume.pdf
