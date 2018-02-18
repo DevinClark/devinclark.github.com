@@ -5,7 +5,7 @@
 version: 2
 general:
   artifacts:
-    - "devin-clark-resume.pdf"
+    - "~/repo/devin-clark-resume.pdf"
   branches:
     only:
       - master
