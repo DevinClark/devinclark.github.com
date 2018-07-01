@@ -1,79 +1,190 @@
-/*!
-Hello, it appears you are trying to view my source code. I have compressed this code to improve performance but you can view my Sass, which is uncompressed, at the following URL:
-
-https://github.com/DevinClark/devinclark.github.com/tree/master/sass
-*/
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
-* { -moz-box-sizing: border-box; box-sizing: border-box; }
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
-.alignleft { float: left; }
+.alignleft {
+  float: left; }
 
-.alignright { float: right; }
+.alignright {
+  float: right; }
 
-.wrapper { width: 860px; margin: 0 auto; }
+.wrapper {
+  width: 900px;
+  margin: 0 auto; }
 
-body { padding: 30px; font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; color: black; font-weight: 300; }
+body {
+  padding: 30px;
+  font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-weight: 300; }
 
-h1, h2, h3, h4, h5, h6 { color: #222; margin: 0 0 20px; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
+  margin: 0 0 20px; }
 
-h1, h2, h3 { line-height: 1.1; }
+h1,
+h2,
+h3 {
+  line-height: 1.1; }
 
-h1 { font-size: 28px; }
+h1 {
+  font-size: 28px; }
 
-h2 { color: #393939; font-size: 22px; }
+h2 {
+  color: #393939;
+  font-size: 22px; }
 
-h3 { font-size: 18px; }
+h3 {
+  font-size: 18px; }
 
-h3, h4, h5, h6 { color: #494949; }
+h3,
+h4,
+h5,
+h6 {
+  color: #494949; }
 
-p, ul, ol, table, pre, dl { margin: 0 0 20px; }
+p,
+ul,
+ol,
+table,
+pre,
+dl {
+  margin: 0 0 20px; }
 
-em { font-style: italic; }
+em {
+  font-style: italic; }
 
-a { color: #39c; font-weight: 400; text-decoration: none; }
+a {
+  color: #39c;
+  font-weight: 400;
+  text-decoration: none; }
 
-a small { font-size: 11px; color: #777; margin-top: -0.6em; display: block; }
+a small {
+  font-size: 11px;
+  color: #777;
+  margin-top: -0.6em;
+  display: block; }
 
-dt { color: #444; font-weight: 700; }
+dt {
+  color: #444;
+  font-weight: 700; }
 
-dd { margin-bottom: 5px; }
+dd {
+  margin-bottom: 5px; }
 
-img { max-width: 100%; }
+img {
+  max-width: 100%; }
 
-strong { color: #222; font-weight: 700; }
+strong {
+  color: #222;
+  font-weight: 700; }
 
-small { font-size: 11px; }
+small {
+  font-size: 11px; }
 
-hr { border: 0; background: #e5e5e5; height: 1px; margin: 0 0 20px; }
+hr {
+  border: 0;
+  background: #e5e5e5;
+  height: 1px;
+  margin: 0 0 20px; }
 
-header { width: 270px; float: left; position: fixed; }
-header h1 { margin-bottom: 0; }
+header {
+  width: 270px;
+  float: left;
+  position: fixed; }
+  header h1 {
+    margin-bottom: 0; }
 
-section { width: 500px; float: right; padding-top: 10px; padding-bottom: 10px; }
-section:first-of-type { padding-top: 0; }
-section ul { padding-bottom: 0; }
-section ul ul { margin: 0; }
+section {
+  width: 600px;
+  float: right;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  section:first-of-type {
+    padding-top: 0; }
+  section ul {
+    padding-bottom: 0; }
+    section ul ul {
+      margin: 0; }
 
-article { padding: 10px 25px; }
-article h3 { margin-bottom: 0; }
-article h3 + em { display: block; }
-article div { margin-top: 10px; }
-article ul { list-style: disc; list-style-position: inside; padding-left: 20px; margin-bottom: 10px; }
+article {
+  padding: 10px 25px; }
+  article:first-of-type {
+    padding-top: 0; }
+  article h3 {
+    margin-bottom: 0; }
+  article h3 + em {
+    display: block; }
+  article div {
+    margin-top: 10px; }
+  article ul {
+    list-style: disc;
+    list-style-position: inside;
+    padding-left: 20px;
+    margin-bottom: 10px; }
 
-footer { width: 270px; float: left; position: fixed; bottom: 10px; }
+footer {
+  width: 270px;
+  float: left;
+  position: fixed;
+  bottom: 10px; }
 
-@media print, screen and (max-width: 960px) { div.wrapper { width: auto; margin: 0; }
-  body { padding-top: 10px; padding-bottom: 0; }
-  h1, h2, h3, h4, h5, h6 { margin-bottom: 10px; }
-  header, section, footer { float: none; position: static; width: auto; }
-  header dt { float: left; margin-right: 5px; }
-  header a small { display: inline; }
-  section { border-width: 1px 0; padding: 10px 0; margin: 0; } }
-@media print, screen and (max-width: 720px) { body { word-wrap: break-word; }
-  header { padding: 0; } }
-@media print, screen and (max-width: 480px) { body { padding: 15px; } }
-@media print { body { margin: 0; font-size: 12pt; color: #444; }
-  header .social { display: none; }
-  section { padding-bottom: 10px; }
-  h2 { margin-bottom: 5px; }
-  footer { display: none; } }
+@media print, screen and (max-width: 960px) {
+  div.wrapper {
+    width: auto;
+    margin: 0; }
+  body {
+    padding-top: 10px;
+    padding-bottom: 0; }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 20px; }
+  header,
+  section,
+  footer {
+    float: none;
+    position: static;
+    width: auto; }
+  header dt {
+    float: left;
+    margin-right: 5px; }
+  header a small {
+    display: inline; }
+  section {
+    border-width: 1px 0;
+    padding: 10px 0;
+    margin: 0; } }
+
+@media print, screen and (max-width: 720px) {
+  body {
+    word-wrap: break-word; }
+  header {
+    padding: 0; } }
+
+@media print, screen and (max-width: 480px) {
+  body {
+    padding: 15px; } }
+
+@media print {
+  body {
+    margin: 0;
+    font-size: 12pt;
+    color: #444; }
+  header .social {
+    display: none; }
+  section {
+    padding-bottom: 10px; }
+  h2 {
+    margin-bottom: 5px; }
+  footer {
+    display: none; } }
