@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/DevinClark/devinclark.github.com#readme",
   "dependencies": {
-    "puppeteer": "1.1.0",
+    "puppeteer": "1.14.0",
     "serve": "6.4.10"
   },
   "devDependencies": {
