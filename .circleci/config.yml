@@ -10,7 +10,7 @@ general:
 jobs:
   build:
     docker:
-      - image: circleci/node:8.9-browsers
+      - image: circleci/node:8.16-browsers
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
