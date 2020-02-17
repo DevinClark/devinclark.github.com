@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "css": "node-sass sass -o stylesheets",
     "start": "node to-pdf.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,8 +21,5 @@
   "dependencies": {
     "puppeteer": "1.14.0",
     "serve": "7.2.0"
-  },
-  "devDependencies": {
-    "node-sass": "4.11.0"
   }
 }
