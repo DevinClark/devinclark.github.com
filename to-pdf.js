@@ -14,6 +14,7 @@ setTimeout(async () => {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.goto('http://localhost:1337', {waitUntil: 'networkidle2'});
+    await page.emulateMedia('print');
     await page.pdf({
       path: 'devin-clark-resume.pdf',
       format: 'Letter',
